@@ -16,5 +16,18 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("피카츄~~",
+                "피카츄가 말하길...",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information); ;
+        }
     }
 }
